@@ -11,42 +11,44 @@
     <title>Adrien Description</title>
   </head>
   <body>
+
+    <div id="sidebar">
+      <ul class="text-white text-center icon-wide">
+        <li>
+          <a href="#bio">
+            <i class="fa fa-user"></i>
+          </a>
+        </li>
+        <li class="table-padding-top">
+          <a href="#coding">
+            <i class="fa fa-code"></i>
+          </a>
+        </li>
+        <li class="table-padding-top">
+          <a href="#message">
+            <i class="fa fa-envelope"></i>
+          </a>
+        </li>
+        <li class="table-padding-top">
+          <a href="#books">
+            <i class="fa fa-book"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+
     <div class="container">
-      <div class="card text-center">
+      <div class="card text-center left-container" id="bio">
         <img class="img-big-size img-rounded" src="https://yt3.ggpht.com/-6UevmXiqg0o/AAAAAAAAAAI/AAAAAAAAAAA/Cpmfw5vcTRU/s900-c-k-no/photo.jpg" alt="Adrien de Villoutreys"></img>
         <h1>Adrien de Villoutreys</h1>
         <h2>Student <a href="https://www.lewagon.com/" target="_blank">@LeWagon</a></h2>
         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
       </div>
 
-      <div class="card">
-        <ul class="list-inline text-center">
-          <li>
-            <a href="https://www.facebook.com/adriendev?fref=ts" target="_blank">
-              <i class="fa fa-facebook"></i>Facebook
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/Sparadri" target="_blank">
-              <i class="fa fa-twitter"></i>Twitter
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/adrien-de-villoutreys-3a58833a" target="_blank">
-              <i class="fa fa-linkedin"></i>Linkedin
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/Sparadri" target="_blank">
-              <i class="fa fa-github"></i>Github
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="card">
+      <div class="card right-container" id="coding">
         <table class="center-element">
-          <h2>Coding Skills</h2>
+          <h2 class="padding-bottom">Coding Skills</h2>
           <tr>
             <td><img class="img-rounded" src="http://mensfeld.github.io/ruby-introduction/img/ruby.gif" alt="Ruby"></td>
             <td>Ruby on Rails</td>
@@ -62,7 +64,52 @@
         </table>
       </div>
 
-      <div class="card">
+      <div class="card clear">
+        <ul class="list-inline text-center">
+          <li>
+            <a class="blue-link" href="https://www.facebook.com/adriendev?fref=ts" target="_blank">
+              <i class="fa fa-facebook"></i>Facebook
+            </a>
+          </li>
+          <li>
+            <a class="blue-link" href="https://twitter.com/Sparadri" target="_blank">
+              <i class="fa fa-twitter"></i>Twitter
+            </a>
+          </li>
+          <li>
+            <a class="blue-link" href="https://www.linkedin.com/in/adrien-de-villoutreys-3a58833a" target="_blank">
+              <i class="fa fa-linkedin"></i>Linkedin
+            </a>
+          </li>
+          <li>
+            <a class="blue-link" href="https://github.com/Sparadri" target="_blank">
+              <i class="fa fa-github"></i>Github
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card" id="message">
+        <h2>Drop a message</h2>
+        <form class="list-inline">
+          <li class="small-padding-bottom">
+            <textarea placeholder="Your message"></textarea>
+          </li>
+          <li class="">
+            <input type="email" class="small-padding-top" placeholder="Email">
+          </li>
+          <li class="right-container table-padding-top">
+            <ul class="list-inline">
+              <li><label> <input type="checkbox"> I agree </label></li>
+              <li><button type="submit" class="btn-red">Send</button></li>
+            </ul>
+          </li>
+          <li>
+          </li>
+        </form>
+      </div>
+
+      <div class="card" id="books">
         <table>
           <h2>Favorite Books</h2>
           <tr>
@@ -71,7 +118,7 @@
             </td>
             <td class="text-padding-left table-padding-top">
               <h4>Vol de Nuit</h4>
-              <p>
+              <p class="text-justify">
                 «Ainsi les trois avions postaux de la Patagonie, du Chili et du Paraguay revenaient du sud, de l'ouest et du nord vers Buenos Aires. On y attendait leur chargement pour donner le départ, vers minuit, à l'avion d'Europe. Trois pilotes, chacun à l'arrière d'un capot lourd comme un chaland, perdus dans la nuit, méditaient leur vol, et, vers la ville immense, descendraient lentement de leur ciel d'orage ou de paix, comme d'étranges paysans descendent de leurs montagnes. Rivière, responsable du réseau entier, se promenait de long en large sur le terrain d'atterrissage de Buenos Aires. Il demeurait silencieux car, jusqu'à l'arrivée des trois avions, cette journée, pour lui, restait redoutable...»
               </p>
             </td>
@@ -82,7 +129,7 @@
             </td>
             <td class="text-padding-left table-padding-top">
               <h4>Le Spectateur Engagé</h4>
-              <p>
+              <p class="text-justify">
                 C'est à Londres, en 1943, que Joseph Kessel, conteur inégalable et premier chroniqueur de notre temps, a écrit "L'armée des ombres", qui n'est pas seulement l'un de ses chefs-d'œuvre mais le roman-symbole de la Résistance que l'auteur présente ainsi :"La France n'a plus de pain, de vin, de feu. Mais surtout elle n'a plus de lois. La désobéissance civique, la rébellion individuelle ou organisée sont devenues devoirs envers la patrie.Jamais la France n'a fait guerre plus haute et plus belle que celle des caves où s'impriment ses journaux libres, des terrains nocturnes et des criques secrètes où elle reçoit ses amis libres et d'où partent ses enfants libres, des cellules de torture où malgré les tenailles, les épingles rougies au feu et les os broyés, des Français meurent en hommes libres. Tout ce qu'on va lire ici a été vécu par des gens de France."
               </p>
             </td>
@@ -93,7 +140,7 @@
             </td>
             <td class="text-padding-left table-padding-top">
               <h4>Vies Minuscules</h4>
-              <p>
+              <p class="text-justify">
                 «Il a caressé des petits serpents très doux ; il parlait toujours. Le mégot brûlait son doigt ; il a pris sa dernière bouffée. Le premier soleil l'a frappé, il a chancelé, s'est retenu à des robes fauves, des poignées de menthe ; il s'est souvenu de chairs de femmes, de regards d'enfants, du délire des innocents : tout cela parlait dans le chant des oiseaux ; il est tombé à genoux dans la bouleversante signifiance du Verbe universel. Il a relevé la tête, a remercié Quelqu'un, tout a pris sens, il est retombé mort.»
               </p>
             </td>
@@ -104,7 +151,7 @@
             </td>
             <td class="text-padding-left table-padding-top  ">
               <h4>L'Armée des Ombres</h4>
-              <p>
+              <p class="text-justify">
                 C'est à Londres, en 1943, que Joseph Kessel, conteur inégalable et premier chroniqueur de notre temps, a écrit "L'armée des ombres", qui n'est pas seulement l'un de ses chefs-d'œuvre mais le roman-symbole de la Résistance que l'auteur présente ainsi :"La France n'a plus de pain, de vin, de feu. Mais surtout elle n'a plus de lois. La désobéissance civique, la rébellion individuelle ou organisée sont devenues devoirs envers la patrie.Jamais la France n'a fait guerre plus haute et plus belle que celle des caves où s'impriment ses journaux libres, des terrains nocturnes et des criques secrètes où elle reçoit ses amis libres et d'où partent ses enfants libres, des cellules de torture où malgré les tenailles, les épingles rougies au feu et les os broyés, des Français meurent en hommes libres. Tout ce qu'on va lire ici a été vécu par des gens de France."
               </p>
             </td>
