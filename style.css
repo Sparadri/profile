@@ -61,7 +61,15 @@ a:hover {
 }
 
 img {
-  width: 60px;
+  width: 40px;
+}
+
+#coding img {
+  padding-right: 5px;
+}
+
+#coding td {
+  font-size: 14px;
 }
 
 .card {
