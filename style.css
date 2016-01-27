@@ -235,3 +235,7 @@ input:focus {
   color: white;
   cursor: pointer;
 }
+
+.small-top-margin {
+  margin-top: 12px;
+}
