@@ -1,0 +1,116 @@
+/*FONTS & COLORS*/
+body {
+  background-color: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(100,100,100);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #DD5555;
+  line-height: 40px;
+  font-size: 22px;
+}
+
+h2 {
+  color: rgb(100,100,100);
+  line-height: 20px;
+  font-size: 20px;
+}
+
+h3 {
+  color: rgb(100,100,100);
+  line-height: 20px;
+  font-size: 18px;
+}
+
+h4 {
+  color: rgb(100,100,100);
+  font-size: 16px;
+  font-weight: lighter;
+  padding-bottom: 0;
+}
+
+p {
+  line-height: 1.5em;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+a {
+  color: #0E7AC4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0e1fc4;
+  font-weight: bolder;
+}
+
+/*BOXES*/
+.container {
+  width: 850px;
+  margin: 0 auto;
+}
+
+img {
+  width: 60px;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  margin: 30px;
+  box-shadow: 2px 2px 2px #CAC5C5;
+  border-radius: 3px;
+}
+
+/*should i put text center for all h3s????*/
+.text-center {
+  text-align: center;
+}
+
+.img-rounded {
+  border-radius: 50%;
+}
+
+.img-big-size {
+  width: 180px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+ul {
+  padding:0;
+}
+
+i {
+  padding: 10px
+}
+
+tr > td {
+  padding-bottom: 1em;
+}
+
+.center-element {
+  margin:0 auto;
+}
+
+.img-size-average {
+  width: 110px;
+  border: 1px solid #EBEBEB;
+}
+
+.text-padding-left {
+ padding-left: 25px;
+}
+
+.table-padding-top {
+  padding-top: 50px;
+}
